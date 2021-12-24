@@ -1,4 +1,6 @@
-RSpec.describe "MinecraftLogParser::PARSER_DEFINITION" do
+# frozen_string_literal: true
+
+RSpec.describe "MinecraftLogParser::PARSER_DEFINITION" do # rubocop:disable Metrics/BlockLength
   it "is defined after accessing definition" do
     MinecraftLogParser::Parser.definition
     expect(MinecraftLogParser::PARSER_DEFINITION).to_not be nil
@@ -9,7 +11,7 @@ RSpec.describe "MinecraftLogParser::PARSER_DEFINITION" do
     expect(MinecraftLogParser::PARSER_DEFINITION[:invalid]).to_not be nil
   end
 
-  describe "schema" do
+  describe "schema" do # rubocop:disable Metrics/BlockLength
     MinecraftLogParser::Parser.definition
     recurse = lambda { |node, path|
       describe path.join("/").to_s do
