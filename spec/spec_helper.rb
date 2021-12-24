@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require "simplecov"
+SimpleCov.start
+
 require "minecraft_log_parser"
 
 RSpec.configure do |config|
