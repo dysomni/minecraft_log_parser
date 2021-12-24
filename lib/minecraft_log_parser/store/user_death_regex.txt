@@ -1,0 +1,79 @@
+^(####) was shot by .+
+^(####) was shot by .+ using .+
+^(####) was pummeled by .+
+^(####) was pummeled by .+ using .+
+^(####) was pricked to death
+^(####) walked into a cactus whilst trying to escape .+
+^(####) drowned
+^(####) drowned whilst trying to escape .+
+^(####) experienced kinetic energy
+^(####) experienced kinetic energy whilst trying to escape .+
+^(####) blew up
+^(####) was blown up by .+
+^(####) was blown up by .+ using .+
+^(####) was killed by \[Intentional Game Design\]
+^(####) hit the ground too hard
+^(####) hit the ground too hard whilst trying to escape .+
+^(####) fell from a high place
+^(####) fell off a ladder
+^(####) fell off some vines
+^(####) fell off some weeping vines
+^(####) fell off some twisting vines
+^(####) fell off scaffolding
+^(####) fell while climbing
+^(####) was squashed by a falling anvil
+^(####) was squashed by a falling anvil whilst fighting .+
+^(####) was squashed by a falling block
+^(####) was squashed by a falling block whilst fighting .+
+^(####) went up in flames
+^(####) walked into fire whilst fighting .+
+^(####) burned to death
+^(####) was burnt to a crisp whilst fighting .+
+^(####) went off with a bang
+^(####) went off with a bang due to a firework fired from .+ by .+
+^(####) tried to swim in lava
+^(####) tried to swim in lava to escape .+
+^(####) was struck by lightning
+^(####) was struck by lightning whilst fighting .+
+^(####) discovered the floor was lava
+^(####) walked into danger zone due to .+
+^(####) was killed by magic
+^(####) was killed by .+ using magic
+^(####) was killed by .+ using .+
+^(####) was killed by magic whilst trying to escape .+
+^(####) was slain by .+
+^(####) was slain by .+ using .+
+^(####) was fireballed by .+
+^(####) was fireballed by .+ using .+
+^(####) was stung to death
+^(####) was shot by a skull from .+
+^(####) starved to death
+^(####) starved to death whilst fighting .+
+^(####) suffocated in a wall
+^(####) suffocated in a wall whilst fighting .+
+^(####) was squished too much
+^(####) was squashed by .+
+^(####) was poked to death by a sweet berry bush
+^(####) was poked to death by a sweet berry bush whilst trying to escape .+
+^(####) was killed trying to hurt .+
+^(####) was killed by .+ trying to hurt .+
+^(####) was impaled by .+
+^(####) was impaled by .+ with .+
+^(####) fell out of the world
+^(####) didn't want to live in the same world as .+
+^(####) withered away
+^(####) withered away whilst fighting .+
+^(####) was roasted in dragon breath
+^(####) was roasted in dragon breath by .+
+^(####) died
+^(####) died because of .+
+^(####) was doomed to fall
+^(####) was doomed to fall by .+
+^(####) was doomed to fall by .+ using .+
+^(####) fell too far and was finished by .+
+^(####) fell too far and was finished by .+ using .+
+^(####) was stung to death by .+
+^(####) went off with a bang whilst fighting .+
+^(####) was killed by even more magic
+^(####) was too soft for this world
+^(####) was too soft for this world \(.+ helped\)
