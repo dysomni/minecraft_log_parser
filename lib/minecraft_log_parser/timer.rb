@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 module MinecraftLogParser
+  # wrapper for timing functionality while parsing
   class Timer
     class << self
       attr_accessor :timer
@@ -11,7 +14,11 @@ module MinecraftLogParser
 end
 
 begin
-  exists = Monotime::Duration rescue nil
+  exists = begin
+    Monotime::Duration
+  rescue StandardError
+    nil
+  end
   require "monotime" unless exists
   MinecraftLogParser::Timer.timer = ->(to_time) { Monotime::Duration.with_measure(&to_time) }
 rescue LoadError

@@ -5,6 +5,7 @@ require_relative "minecraft_log_parser/constants"
 require_relative "minecraft_log_parser/timer"
 require_relative "minecraft_log_parser/parser"
 
+# Module for parsing minecraft logs
 module MinecraftLogParser
   class Error < StandardError; end
 
