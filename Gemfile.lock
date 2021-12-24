@@ -7,6 +7,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    classy_hash (1.0.0)
     diff-lcs (1.5.0)
     monotime (0.7.1)
     parallel (1.21.0)
@@ -48,6 +49,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  classy_hash
   minecraft_log_parser!
   monotime (~> 0.7.1)
   rake (~> 13.0)

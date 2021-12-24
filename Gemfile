@@ -12,3 +12,5 @@ gem "rspec", "~> 3.0"
 gem "rubocop", "~> 1.21"
 
 gem "monotime", "~> 0.7.1"
+
+gem "classy_hash"

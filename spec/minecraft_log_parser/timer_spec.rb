@@ -1,6 +1,12 @@
+# frozen_string_literal: true
+
 RSpec.describe MinecraftLogParser::Timer do
   it "has a timer attribute" do
     expect(MinecraftLogParser::Timer.timer).not_to be nil
+  end
+
+  it "has a time method" do
+    expect(MinecraftLogParser::Timer.methods.include?(:time)).to be true
   end
 
   describe "timer attribute" do
@@ -13,10 +19,6 @@ RSpec.describe MinecraftLogParser::Timer do
       expect(resp[0]).to eq("response")
       expect(resp[1]).to be_a(Monotime::Duration).or be(nil)
     end
-  end
-
-  it "has a time method" do
-    expect(MinecraftLogParser::Timer.methods.include?(:time)).to be true
   end
 
   describe "time method" do
